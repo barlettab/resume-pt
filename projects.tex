@@ -1,0 +1,40 @@
+%====================
+% PROJETOS
+%====================
+\justifying
+\noindent
+\textbf{ORMS — Sistema de Gestão de Centro Cirúrgico} \hfill Ago 2026 \\
+Projeto de Design de Banco de Dados SQL \hfill \href{https://github.com/barlettab/harvard-cs50-sql}{GitHub}
+\vspace{0.1em}
+\begin{zitemize}
+\setlength{\itemsep}{0.1em}
+    \item Projetei e implementei um banco de dados relacional normalizado utilizando SQLite para modelar fluxos de trabalho de centro cirúrgico hospitalar em 9 tabelas, incluindo pacientes, procedimentos, cirurgias, equipe médica, equipamentos e recursos de agendamento.
+    \item Desenvolvi views analíticas e índices para relatórios operacionais (agendas cirúrgicas, utilização de salas, alocação de equipe), e implementei triggers RAISE/ABORT para garantir a integridade dos dados e evitar conflitos de agendamento.
+\end{zitemize}
+\noindent
+\textbf{Análise e Previsão de Dados do CEAPS} \hfill Abr 2026 \\
+\#7DaysOfCode da Alura \hfill \href{https://github.com/barlettab/ceaps-data-analysis}{GitHub} $\cdot$ \href{https://medium.com/@barlettabc/o-que-os-dados-revelam-sobre-os-gastos-do-senado-642a91bdd0a4}{Artigo}
+\vspace{0.1em}
+\begin{zitemize}
+\setlength{\itemsep}{0.1em}
+    \item Análise completa (end-to-end) dos dados de reembolso de despesas do Senado Federal (CEAPS), consolidando mais de 386.000 registros do período de 2008–2026 via API. Realizei tratamento de dados, análise exploratória (EDA) e análise de padrões de gastos por categoria, legislatura e estado. Comparei quatro modelos de séries temporais (SARIMA, ARIMA, Regressão Linear e Prophet) para previsão de despesas, selecionando o SARIMA como o de melhor desempenho (MAPE de 10,5\%) para projeções de 3 meses.
+\end{zitemize}
+\vspace{0.2em}
+\noindent
+\textbf{Análise de Teste A/B — Sistema de Recomendação para E-commerce} \hfill Abr 2026 \\
+\#7DaysOfCode da Alura \hfill \href{https://github.com/barlettab/ab-testing-ecommerce}{GitHub} $\cdot$ \href{https://medium.com/@barlettabc/i-tested-a-product-recommendation-system-the-result-was-no-and-thats-the-point-4449d76658a4}{Artigo}
+\vspace{0.1em}
+\begin{zitemize}
+\setlength{\itemsep}{0.1em}
+    \item Projetei e executei um pipeline completo de teste A/B para avaliar se um sistema de recomendação de produtos melhorava as taxas de conversão em e-commerce, utilizando uma base de dados pública com 294.478 observações. Apliquei testes Z (unicaudal e bicaudal) para proporções em uma amostra de 5.000 usuários e na base completa, concluindo que o sistema não gerou uma melhora estatisticamente significativa na conversão.
+\end{zitemize}
+\vspace{0.2em}
+\noindent
+\textbf{API de Recomendação de Filmes (MovieLens)} \hfill Abr 2026 \\
+\#7DaysOfCode da Alura \hfill \href{https://github.com/barlettab/movie-lens-model-api}{GitHub} $\cdot$ \href{https://medium.com/@barlettabc/recommendation-engines-how-to-build-one-with-movielens-65895e538da7}{Artigo}
+\vspace{0.1em}
+\begin{zitemize}
+\setlength{\itemsep}{0.1em}
+    \item Desenvolvi um sistema de recomendação de filmes completo (end-to-end) utilizando o dataset MovieLens: treinei um modelo K-Nearest Neighbors (KNN) para recomendações baseadas em item e em usuário, serializei o modelo e o disponibilizei como uma API REST usando FastAPI, com validação de requisições via Pydantic e containerização com Docker.
+\end{zitemize}
+\vspace{0.2em}

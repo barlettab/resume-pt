@@ -1,0 +1,69 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+%====================
+% OFFICIAL PUBLIC OVERLEAF TEMPLATE
+% https://www.overleaf.com/latex/templates/data-science-tech-resume-template/zcdmpfxrzjhv
+% 
+%====================
+%
+% Resume template for data scientists, a complement to data-science-tech-cover-letter-template:
+% https://www.overleaf.com/latex/templates/data-science-tech-cover-letter-template/gbrcqktbsfxf
+%
+% Files:        resume.tex: Main file
+%               _header.tex: header code
+%               TLCresume.sty: style file containing formatting details
+%               section/objective: https://www.indeed.com/career-advice/resumes-cover-letters/resume-objective-examples
+%               section/skills: table of skills
+%               section/experience: projects or roles
+%               section/education: schools and stuff
+%               section/activities: optional, could comment out in resume.tex.
+%
+% Editor:       https://github.com/TimmyChan 
+%               https://www.linkedin.com/in/timmy-l-chan/
+%               
+% Last Updated: March 24th, 2022
+%
+%====================
+
+
+\usepackage{TLCresume}
+
+%====================
+% CONTACT INFORMATION
+%====================
+\def\name{Barbara Barletta} % Name Here
+\def\phone{(61) 98125-6543}
+\def\city{Brasília, DF}
+\def\email{barlettabc@gmail.com}
+\def\LinkedIn{barlettab} % linkedin.com/in/______
+\def\github{barlettab} % github username
+\def\role{Analista de Dados} % JOB TITLE
+\def\portfoliourl{https://mathtodata.com}
+\def\portfolioname{MathtoData.com}
+
+\input{_header}
+\begin{document}\pagestyle{others}\thispagestyle{first_page}
+
+\input{sections/objective}
+
+\section{Habilidades Técnicas}
+\input{sections/skills}
+
+\section{Experiências}
+\input{sections/experience}
+
+\newpage
+\section{Projetos}
+\input{sections/projects}
+
+\section{Educação}
+\input{sections/education}
+
+\section{Certificações}
+\input{sections/certifications}
+
+\section{Atividades}
+\input{sections/activities}
+
+\end{document}
